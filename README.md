@@ -1,4 +1,4 @@
-# uv-docker-example
+# A FASTAPI server running on Docker using Astral.sh uv package manager
 
 An example project for using uv in Docker images, with a focus on best practices for developing with
 the project mounted in the local image.
@@ -27,11 +27,11 @@ more robust support for various workflows.
 To build and run the web application using Docker compose:
 
 ```
-docker compose up --watch 
+docker compose up --watch
 ```
 
 By default, the image is set up to start the web application. However, a command-line interface is
-provided for demonstration purposes as well. 
+provided for demonstration purposes as well.
 
 To run the command-line entrypoint in the container:
 
