@@ -1,11 +1,11 @@
 services:
-  web:
+  app:
     # Build the image from the Dockerfile in the current directory
     build: .
 
     # Host the FastAPI application on port 8000
     ports:
-      - "8000:8000"
+      - '8000:8000'
 
     develop:
       # Create a `watch` configuration to update the appl
